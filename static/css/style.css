@@ -1,0 +1,31 @@
+
+
+body { 
+	height:100%;
+	background: rgb(173, 51, 221);
+	color: #fff;
+	font-size: 40px;
+	text-align:center;
+	letter-spacing:1.4px;
+
+}
+.container { 
+	float:left;		
+}
+
+.container2 { 
+	float:right;	
+}
+
+
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	border: none;
+	outline: none;
+	padding: 10px;
+	
+}
+button:hover{
+cursor: pointer;
+}

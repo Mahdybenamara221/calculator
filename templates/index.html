@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body >
+ <div class="container">
+
+
+    <form action="{{ url_for('calculate')}}" method="post">
+        <input type="text" name="x" placeholder="First variable" required="required" />
+        <input type="text" name="operation" placeholder="+ - / *" required="required" />
+        <input type="text" name="y" placeholder="Second variable" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Calculate</button>
+    </form>
+
+
+
+ </div>
+ <div class="container2">
+
+  Result :
+  {{ results }}
+ </div>
+</body>
+</html>
